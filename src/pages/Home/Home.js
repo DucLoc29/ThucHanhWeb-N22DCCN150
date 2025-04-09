@@ -16,6 +16,7 @@ function Home() {
     return (
         <div className="home-wrapper">
             <h1>Home</h1>
+            <h3>Kết nối API</h3>
             <ul>
                 {posts.map((post) => (
                     <li key={post.id}>{post.title}</li>
